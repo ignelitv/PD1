@@ -1,5 +1,6 @@
 package com.example.pd1;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
@@ -28,6 +29,9 @@ public class MainActivity extends AppCompatActivity {
         final Button button = findViewById(R.id.btnChangeText);
         tvChangeText = findViewById(R.id.tvChangeText);
         button.setOnClickListener(v -> tvChangeText.setText("Welcome to android"));
+
+        final Button buttonChangeColor = findViewById(R.id.btnChangeColor);
+        buttonChangeColor.setOnClickListener(v -> tvChangeText.setTextColor(Color.RED));
 
     }
 }

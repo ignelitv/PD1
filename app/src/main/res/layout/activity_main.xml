@@ -22,9 +22,18 @@
         android:id="@+id/btnChangeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Change Text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvChangeText" />
+
+    <Button
+        android:id="@+id/btnChangeColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Text Color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnChangeText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
